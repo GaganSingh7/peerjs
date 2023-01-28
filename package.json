@@ -4,7 +4,7 @@
   "description": "peer js server",
   "main": "index.js",
   "scripts": {
-    "start": "peerjs --port 43 --key peerjs --path /interacto"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/GaganSingh7/peerjs/issues"
   },
-  "homepage": "https://github.com/GaganSingh7/peerjs#readme"
+  "homepage": "https://github.com/GaganSingh7/peerjs#readme",
+  "dependencies": {
+    "peer": "^0.6.1"
+  }
 }
